@@ -17,14 +17,14 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'portfolio-image.jpg',
   paragraphOne:
     'Solution-driven and highly-collaborative Web Developer, who is ardent about integrating libraries to build incredible projects and web applications. Excelling in using technologies such as JavaScript, React, Flask, Python, SQL, and REST APIs. Through my work history, you can expect a proven ability in organization, efficiency, and teamwork.',
   paragraphTwo:
     'My entire life, I have been a tech-savvy extraordinaire in various sectors of technology. When Apple started releasing the iPhone 4, I started a side hustle fixing phone screens, which eventually led to fixing hardware aspects. At my university, I was dedicated to learning about managing databases. Still, I felt that something was missing and that my intellectuality needed a full circle. Then, I was introduced to coding and so many new doors opened.',
   paragraphThree:
     'My passion for people and technology has inspired me to enable the full potential of humans and the internet. Continual education and keeping up with the latest technology trends are both very important to me. Check out my Github as I regularly upload projects!',
-  resume: '', // if no resume, the button will not show up
+  resume: 'Resume', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA

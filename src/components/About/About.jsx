@@ -1,9 +1,11 @@
 import React, { useContext, useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'gatsby';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
+// import Resume from '../../pages/Resume';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
@@ -50,14 +52,14 @@ const About = () => {
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
-                    <a
+                    <Link
+                      to="/Resume/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href={resume}
                     >
                       Resume
-                    </a>
+                    </Link>
                   </span>
                 )}
               </div>
