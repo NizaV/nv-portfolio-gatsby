@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'gatsby';
+import Fade from 'react-reveal/Fade';
 import ResumePhoto from '../images/resume.jpg';
 import '../style/resume.scss';
 
@@ -25,7 +26,9 @@ function Resume() {
       </div>
       <Container>
         <div>
-          <img src={ResumePhoto} alt="resume" style={resumeStyles} />
+          <Fade bottom duration={1000} delay={500} distance="50px">
+            <img src={ResumePhoto} alt="resume" style={resumeStyles} />
+          </Fade>
         </div>
       </Container>
 
