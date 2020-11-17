@@ -25,7 +25,7 @@ function Resume() {
         </Link>
       </div>
       <Container>
-        <div>
+        <div className="image">
           <Fade bottom duration={1000} delay={500} distance="50px">
             <img src={ResumePhoto} alt="resume" style={resumeStyles} />
           </Fade>
