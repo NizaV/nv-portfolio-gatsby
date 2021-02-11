@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 import GithubButtons from '../GithubButtons/GithubButtons';
-import Logo from '../../images/nv-dev-logo.png';
+import Logo from '../../images/nv-dev-logo-light.png';
 
 import { githubButtons } from '../../mock/data';
 
