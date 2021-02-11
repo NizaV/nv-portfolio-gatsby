@@ -27,6 +27,11 @@
     }
   }
 
+  &__logo > img {
+    height: 100px;
+    width: 100px;
+  }
+
   & hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
