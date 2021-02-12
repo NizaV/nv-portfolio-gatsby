@@ -1,4 +1,5 @@
-#projects {
+#projects,
+#projects-gallery {
   background-color: $white-color;
   color: $dark-blue-text;
   margin-top: -15rem;
@@ -73,5 +74,9 @@
         }
       }
     }
+  }
+  .gallery-view {
+    margin-bottom: 34px;
+    margin-top: 2rem;
   }
 }

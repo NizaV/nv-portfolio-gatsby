@@ -2,9 +2,11 @@ import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'gatsby';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
+import Gallery from '../../pages/Gallery';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -27,6 +29,19 @@ const Projects = () => {
       <Container>
         <div className="project-wrapper">
           <Title title="Projects" />
+          <div className="gallery-view">
+            {Gallery && (
+              <Link
+                to="/Gallery/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta-btn cta-btn--hero"
+              >
+                Gallery
+              </Link>
+            )}
+          </div>
+
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
