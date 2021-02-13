@@ -35,8 +35,7 @@ export const projectsData = [
     title: 'The New Order',
     info:
       'A full-stack interactive web application capable of enabling mobile food vendors to boost revenue with online ordering and pick up. It incorporates an active location, menu customization by category, order organization, and feasible asynchronous communication features. It is built to enhance food ordering with convenience and also in the midst of health concerns today.',
-    info2:
-      'Technologies used: JavaScript, React.JS, Flux, Python, Agile/Scrum, REST API, Bootstrap, and SCSS',
+    info2: 'Technologies used: JavaScript, React.JS, Flux, Python, REST API, Bootstrap, and SCSS',
     url: 'https://theneworder.vercel.app/',
     repo: 'https://github.com/NizaV/the-new-order-front-end', // if no repo, the button will not show up
   },
@@ -47,7 +46,7 @@ export const projectsData = [
     info:
       'A full-stack interactive contact list with CRM integration. It enables you to implement CRUD for all contacts in a scalable database. The implementation was created efficiently using JSON, Fetch, and AJAX requests. Its CRM feature is targeted at users needing a system capable of tracking sales, marketing, or even customer service. While also custom-made for implementation in companies that need client information accessible and modifiable.',
     info2:
-      'Technologies used: JavaScript, React.JS, Flux, API, React-Router, Context, Props, Python, MySQL',
+      'Technologies used: JavaScript, React.JS, Flux, API, React-Router, Context, Props, Python, MySQL, Sass',
     url: 'https://contact-management-application.vercel.app/',
     repo: 'https://github.com/NizaV/Contact_List', // if no repo, the button will not show up
   },
@@ -67,9 +66,18 @@ export const projectsData = [
     title: 'Netflix Klone',
     info:
       'Front-end React app created to exhibit a flawless realistic user experience in a Netflix environment.',
-    info2: 'Technologies used: API, Axios, React, and CSS',
+    info2: 'Technologies used: API, Axios, React, Firebase, and CSS',
     url: 'https://netflix-klone-nv.web.app/',
     repo: 'https://github.com/NizaV/netflix-klone', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'robinhood-image.png',
+    title: 'Robinhood Klone',
+    info: 'Front-end React app created to replicate a trading experience like Robinhood provides.',
+    info2: 'Technologies used: API, Axios, React, Firebase, and CSS',
+    url: '',
+    repo: 'https://github.com/NizaV/robinhood-klone', // if no repo, the button will not show up
   },
 ];
 

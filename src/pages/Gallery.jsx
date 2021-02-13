@@ -5,6 +5,7 @@ import Tilt from 'react-tilt';
 import { projectsData } from '../mock/data';
 import ProjectImg from '../components/Image/ProjectImg';
 import '../style/main.scss';
+// import { BsFillGrid3X3GapFill } from "@react-icons/all-files/bs/BsFillGrid3X3GapFill";
 
 const Gallery = () => {
   const [projects, setProjects] = useState([]);
@@ -24,7 +25,10 @@ const Gallery = () => {
   }, []);
 
   return (
-    <Container>
+    <Container id="projects-gallery-container">
+      <div className="choose-view">
+        <i className="fas fa-th" />
+      </div>
       <div id="projects-gallery" className="gallery-view">
         <Row>
           {projects.map((project) => {

@@ -74,6 +74,10 @@
       }
     }
   }
+  .gallery-view {
+    margin-bottom: 34px;
+    margin-top: 2rem;
+  }
 }
 
 #projects-gallery {
@@ -154,8 +158,10 @@
       }
     }
   }
-  .gallery-view {
-    margin-bottom: 34px;
-    margin-top: 2rem;
+}
+
+#project-gallery-container {
+  .choose-view {
+    height: max-content;
   }
 }
