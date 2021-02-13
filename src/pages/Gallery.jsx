@@ -28,11 +28,12 @@ const Gallery = () => {
       <div id="projects-gallery" className="gallery-view">
         <Row>
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, url, repo, img, id } = project;
+            // const { title, info, info2, url, repo, img, id } = project;
 
             return (
               <>
-                <Col key={id} lg={4} sm={12}>
+                <Col key={id} lg={4} sm={12} className="mb-5">
                   <Fade
                     right={isDesktop}
                     bottom={isMobile}
@@ -76,13 +77,13 @@ const Gallery = () => {
                   >
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
-                      <div>
+                      {/* <div>
                         <p>
                           {info ||
                             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
-                      </div>
+                      </div> */}
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -105,9 +106,6 @@ const Gallery = () => {
                     </div>
                   </Fade>
                 </Col>
-                {/* <Col lg={8} sm={12}>
-                            
-                            </Col> */}
               </>
             );
           })}
