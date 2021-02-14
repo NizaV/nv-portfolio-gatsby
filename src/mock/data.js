@@ -76,7 +76,7 @@ export const projectsData = [
     title: 'Robinhood Klone',
     info: 'Front-end React app created to replicate a trading experience like Robinhood provides.',
     info2: 'Technologies used: API, Axios, React, Firebase, and CSS',
-    url: '',
+    url: 'https://robinhood-klone-nv.web.app',
     repo: 'https://github.com/NizaV/robinhood-klone', // if no repo, the button will not show up
   },
 ];
