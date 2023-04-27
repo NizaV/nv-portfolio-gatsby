@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hello, my name is',
   name: 'Niza Vera',
-  subtitle: "I'm a Full Stack Developer.",
+  subtitle: "I'm a Frontend Developer.",
   cta: 'Get to know me',
 };
 
@@ -34,20 +34,18 @@ export const projectsData = [
     img: 'cma-image.png',
     title: 'Contact Management Application',
     info: 'A full-stack interactive contact list with CRM integration. It enables you to implement CRUD for all contacts in a scalable database. The implementation was created efficiently using JSON, Fetch, and AJAX requests. Its CRM feature is targeted at users needing a system capable of tracking sales, marketing, or even customer service. While also custom-made for implementation in companies that need client information accessible and modifiable.',
-    info2:
-      'Technologies used: JavaScript, React.JS, Flux, API, React-Router, Context, Props, Python, MySQL',
-    url: 'https://contact-management-application.vercel.app/',
-    repo: 'https://github.com/NizaV/Contact_List', // if no repo, the button will not show up
+    info2: 'Technologies used: JavaScript, React.JS, Flux, Typescript, Postgres, Docker',
+    url: 'https://my-crm-app23.s3.amazonaws.com/index.html',
+    repo: 'https://github.com/NizaV/crm-frontend', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'theneworder-image.png',
-    title: 'The New Order',
-    info: 'A full-stack interactive web application capable of enabling mobile food vendors to boost revenue with online ordering and pick up. It incorporates an active location, menu customization by category, order organization, and feasible asynchronous communication features. It is built to enhance food ordering with convenience and also in the midst of health concerns today.',
-    info2:
-      'Technologies used: JavaScript, React.JS, Flux, Python, Agile/Scrum, REST API, Bootstrap, and SCSS',
-    url: 'https://theneworder.vercel.app/',
-    repo: 'https://github.com/NizaV/the-new-order-front-end', // if no repo, the button will not show up
+    img: 'netflix-image.png',
+    title: 'Netflix Klone',
+    info: 'Front-end React app created to exhibit a flawless realistic user experience in a Netflix environment.',
+    info2: 'Technologies used: API, Axios, React, and CSS',
+    url: 'https://netflix-klone-nv.web.app/',
+    repo: 'https://github.com/NizaV/netflix-klone', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -60,12 +58,13 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'netflix-image.png',
-    title: 'Netflix Klone',
-    info: 'Front-end React app created to exhibit a flawless realistic user experience in a Netflix environment.',
-    info2: 'Technologies used: API, Axios, React, and CSS',
-    url: 'https://netflix-klone-nv.web.app/',
-    repo: 'https://github.com/NizaV/netflix-klone', // if no repo, the button will not show up
+    img: 'theneworder-image.png',
+    title: 'The New Order',
+    info: 'A full-stack interactive web application capable of enabling mobile food vendors to boost revenue with online ordering and pick up. It incorporates an active location, menu customization by category, order organization, and feasible asynchronous communication features. It is built to enhance food ordering with convenience and also in the midst of health concerns today.',
+    info2:
+      'Technologies used: JavaScript, React.JS, Flux, Python, Agile/Scrum, REST API, Bootstrap, and SCSS',
+    url: 'https://theneworder.vercel.app/',
+    repo: 'https://github.com/NizaV/the-new-order-front-end', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
