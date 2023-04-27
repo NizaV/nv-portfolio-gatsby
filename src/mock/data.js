@@ -34,8 +34,7 @@ export const projectsData = [
     img: 'cma-image.png',
     title: 'Contact Management Application',
     info: 'A full-stack interactive contact list with CRM integration. It enables you to implement CRUD for all contacts in a scalable database. The implementation was created efficiently using JSON, Fetch, and AJAX requests. Its CRM feature is targeted at users needing a system capable of tracking sales, marketing, or even customer service. While also custom-made for implementation in companies that need client information accessible and modifiable.',
-    info2:
-      'Technologies used: JavaScript, React.JS, Flux, API, React-Router, Context, Props, Python, MySQL',
+    info2: 'Technologies used: JavaScript, React.JS, Flux, Typescript, Postgres, Docker',
     url: 'https://my-crm-app23.s3.amazonaws.com/index.html',
     repo: 'https://github.com/NizaV/crm-frontend', // if no repo, the button will not show up
   },
