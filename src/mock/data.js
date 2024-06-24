@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hello, my name is',
   name: 'Niza Vera',
-  subtitle: "I'm a Full Stack Developer.",
+  subtitle: "I'm a Frontend Developer.",
   cta: 'Get to know me',
 };
 
@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'portfolio-image.jpg',
   paragraphOne:
-    'Solution-driven and highly-collaborative Web Developer, who is ardent about integrating libraries to build incredible projects and web applications. Excelling in using technologies such as JavaScript, React, Flask, Python, SQL, and REST APIs. Through my work history, you can expect a proven ability in organization, efficiency, and teamwork.',
+    'Solution-driven and highly-collaborative Web Developer, who is ardent about integrating libraries to build incredible projects and web applications. Excelling in frontend technologies such as JavaScript, React, REST APIs, JQuery, and HTML/CSS. Including a growing passion for backend technologies Python, Flask, Typescript,Express.js, and Postgres. Through my work history, you can expect a proven ability in implementation, efficiency, and collaboration.',
   paragraphTwo:
     'My entire life, I have been a tech-savvy extraordinaire in various sectors of technology. When Apple started releasing the iPhone 4, I started a side hustle fixing phone screens, which eventually led to fixing hardware aspects. At my university, I was dedicated to learning about managing databases. Still, I felt that something was missing and that my intellectuality needed a full circle. Then, I was introduced to coding and so many new doors opened.',
   paragraphThree:
-    'My passion for people and technology has inspired me to enable the full potential of humans and the internet. Continual education and keeping up with the latest technology trends are both very important to me. Check out my Github as I regularly upload projects!',
+    'My passion for people and technology has inspired me to enable the full potential of humans and the internet. Continual education and keeping up with the latest technology trends are both very important to me as it helps me deliver high-quality work. Check out my Github as I regularly upload projects!',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -34,20 +34,18 @@ export const projectsData = [
     img: 'cma-image.png',
     title: 'Contact Management Application',
     info: 'A full-stack interactive contact list with CRM integration. It enables you to implement CRUD for all contacts in a scalable database. The implementation was created efficiently using JSON, Fetch, and AJAX requests. Its CRM feature is targeted at users needing a system capable of tracking sales, marketing, or even customer service. While also custom-made for implementation in companies that need client information accessible and modifiable.',
-    info2:
-      'Technologies used: JavaScript, React.JS, Flux, API, React-Router, Context, Props, Python, MySQL',
-    url: 'https://contact-management-application.vercel.app/',
-    repo: 'https://github.com/NizaV/Contact_List', // if no repo, the button will not show up
+    info2: 'Technologies used: JavaScript, React.JS, Flux, Typescript, Postgres, Docker',
+    url: 'https://my-crm-app23.s3.amazonaws.com/index.html',
+    repo: 'https://github.com/NizaV/crm-frontend', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'theneworder-image.png',
-    title: 'The New Order',
-    info: 'A full-stack interactive web application capable of enabling mobile food vendors to boost revenue with online ordering and pick up. It incorporates an active location, menu customization by category, order organization, and feasible asynchronous communication features. It is built to enhance food ordering with convenience and also in the midst of health concerns today.',
-    info2:
-      'Technologies used: JavaScript, React.JS, Flux, Python, Agile/Scrum, REST API, Bootstrap, and SCSS',
-    url: 'https://theneworder.vercel.app/',
-    repo: 'https://github.com/NizaV/the-new-order-front-end', // if no repo, the button will not show up
+    img: 'netflix-image.png',
+    title: 'Netflix Klone',
+    info: 'Front-end React app created to exhibit a flawless realistic user experience in a Netflix environment.',
+    info2: 'Technologies used: API, Axios, React, and CSS',
+    url: 'https://netflix-klone-nv.web.app/',
+    repo: 'https://github.com/NizaV/netflix-klone', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -60,12 +58,13 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'netflix-image.png',
-    title: 'Netflix Klone',
-    info: 'Front-end React app created to exhibit a flawless realistic user experience in a Netflix environment.',
-    info2: 'Technologies used: API, Axios, React, and CSS',
-    url: 'https://netflix-klone-nv.web.app/',
-    repo: 'https://github.com/NizaV/netflix-klone', // if no repo, the button will not show up
+    img: 'theneworder-image.png',
+    title: 'The New Order',
+    info: 'A full-stack interactive web application capable of enabling mobile food vendors to boost revenue with online ordering and pick up. It incorporates an active location, menu customization by category, order organization, and feasible asynchronous communication features. It is built to enhance food ordering with convenience and also in the midst of health concerns today.',
+    info2:
+      'Technologies used: JavaScript, React.JS, Flux, Python, Agile/Scrum, REST API, Bootstrap, and SCSS',
+    url: 'https://theneworder.vercel.app/',
+    repo: 'https://github.com/NizaV/the-new-order-front-end', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
