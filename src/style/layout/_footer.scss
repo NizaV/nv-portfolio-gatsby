@@ -1,5 +1,5 @@
 .footer {
-  background-color: $dark-grey;
+  background-color: $white-color;
   color: $white-color;
   padding: 4.8rem 0;
 
@@ -8,11 +8,11 @@
   }
 
   &__text {
-    color: darken(white, 50%);
+    color: $dark-blue-text;
     font-size: 1.3rem;
 
     a {
-      color: darken(white, 50%);
+      color: $dark-blue-text;
       font-size: 1.3rem;
       transition: all 0.4s;
       display: inline-block;
@@ -37,7 +37,7 @@
     margin-bottom: 1rem;
     border: 0;
     width: 50%;
-    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    border-top: 2px solid $dark-blue-text;
   }
 }
 
@@ -50,12 +50,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: $white-color;
+    color: $dark-blue-text;
     font-size: 3rem;
     width: 5rem;
     height: 5rem;
     margin: $default-font-size $default-font-size;
     transition: all 0.2s ease-in;
+
+    .fa {
+      color: $dark-blue-text;
+    }
 
     &:hover {
       transform: translateY(-2px);
@@ -64,7 +68,7 @@
 }
 
 .back-to-top i {
-  color: $white-color;
+  color: $dark-blue-text;
   margin: 1rem 0 $default-font-size;
   transition: all 0.2s ease-in;
   cursor: pointer;
