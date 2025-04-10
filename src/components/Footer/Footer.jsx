@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 import GithubButtons from '../GithubButtons/GithubButtons';
-import Logo from '../../images/nv-dev-logo-light.png';
+import Logo from '../../images/nh-logo-256x256.png';
 
 import { githubButtons } from '../../mock/data';
 
@@ -38,7 +38,7 @@ const Footer = () => {
             })}
         </div>
         <hr />
-        <p className="footer__text">© {new Date().getFullYear()} Niza Vera | Dev</p>
+        <p className="footer__text">© {new Date().getFullYear()} Niza Healy | Dev</p>
         <div className="footer__logo">
           <img src={Logo} alt="Logo" />
         </div>

@@ -1,17 +1,16 @@
 // COLORS
-$primary-color: #000000;
-$secondary-color: #e74c3c;
+// Accent Colors
+$primary-color: #FF6363;
+$secondary-color: #3B82F6;
 
-// $primary-color: #483a3a;
-// $secondary-color: #cf2f3b;
-// $primary-color: #7f449d;
-// $secondary-color: #793fc1;
+// Background & Text Neutrals
+$white-color: #FDF6F0;
+$dark-grey: #2C2C2E;
+$dark-blue-text: #111827;
 
-$white-color: #e4e0e1;
-
-$dark-grey: #333333;
-
-$dark-blue-text: #272341; // For Headings
+// Optional Extras
+$muted-accent: #94A3B8;
+$light-background: #F8F9FA;
 
 // FONT SIZE
 $default-font-size: 1.6rem;

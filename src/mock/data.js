@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Niza Vera | Dev', // e.g: 'Name | Developer'
+  title: 'Niza Healy | Dev', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
@@ -10,8 +10,8 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Hello, my name is',
-  name: 'Niza Vera',
-  subtitle: "I'm a Frontend Developer.",
+  name: 'Niza Healy',
+  subtitle: "I'm a Full-Stack Developer.",
   cta: 'Get to know me',
 };
 
@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'portfolio-image.jpg',
   paragraphOne:
-    'Solution-driven and highly-collaborative Web Developer, who is ardent about integrating libraries to build incredible projects and web applications. Excelling in frontend technologies such as JavaScript, React, REST APIs, JQuery, and HTML/CSS. Including a growing passion for backend technologies Python, Flask, Typescript,Express.js, and Postgres. Through my work history, you can expect a proven ability in implementation, efficiency, and collaboration.',
+    'Solution-driven and highly collaborative Web Developer, passionate about integrating libraries to build incredible projects and web applications. I specialize in frontend technologies like JavaScript, React, HTML/CSS, and work extensively with eCommerce ecosystems. I also integrate Amazon Web Services (AWS) cloud solutions to develop and optimize scalable systems. With my experience across both frontend and backend, I strive to deliver high-quality, impactful results and ensure seamless digital experiences.',
   paragraphTwo:
-    'My entire life, I have been a tech-savvy extraordinaire in various sectors of technology. When Apple started releasing the iPhone 4, I started a side hustle fixing phone screens, which eventually led to fixing hardware aspects. At my university, I was dedicated to learning about managing databases. Still, I felt that something was missing and that my intellectuality needed a full circle. Then, I was introduced to coding and so many new doors opened.',
+    'My journey in tech began well before my first line of code. When the iPhone 4 was all the rage, I started a side hustle fixing phone screens, which eventually led me to dive deeper into hardware repairs. At university, I explored database management but still felt something was missing. Then I discovered coding, and everything clicked. Development became the perfect mix of creativity and problem-solving, and it’s been an exciting ride ever since.',
   paragraphThree:
-    'My passion for people and technology has inspired me to enable the full potential of humans and the internet. Continual education and keeping up with the latest technology trends are both very important to me as it helps me deliver high-quality work. Check out my Github as I regularly upload projects!',
+    'I’m inspired by the intersection of people and technology, striving to enable humans to unlock their full potential through the internet. I prioritize continuous learning and staying on top of the latest trends in technology, ensuring that I can consistently deliver cutting-edge work. You can find more of my projects and work below in my portfolio!',
   resume: '', // if no resume, the button will not show up
 };
 
